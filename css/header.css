@@ -1,0 +1,39 @@
+header{
+    height : 90px;
+    width : 100%;
+    display : flex;
+    align-items: center;
+    position : fixed;
+    padding-left : 200px;
+    background-color: white;
+    z-index: 2;
+}
+.company-logo{
+    width : 138px;
+    height : 37px;
+    cursor: pointer;
+}
+
+header .company-logo {
+    margin-right : 100px;
+}
+
+header .header__tabs{
+    display: flex;
+    justify-content: space-between;
+    width : 610px;
+    opacity : 0.6;
+    font-weight : 500;
+    height : 100%;
+}
+
+.header__tabs .header__tab{
+    display : flex;
+    align-items: center;
+    cursor: pointer;
+    height : 100%;
+}
+
+.header__tabs .header__tab:hover{
+    border-bottom : 2px solid #E41E25;
+}
