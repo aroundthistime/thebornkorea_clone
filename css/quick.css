@@ -1,5 +1,5 @@
 main .main__quick{
-    width : 100%;
+    width : 1520px;
     height : 49px;
     display : flex;
     justify-content: space-between;
@@ -13,6 +13,8 @@ main .main__quick{
 .main__quick .quick__links{
     display : flex;
     justify-content: space-between;
+    flex-shrink: 0;
+
 }
 
 .main__quick .quick__news{

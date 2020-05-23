@@ -1,6 +1,7 @@
 footer{
     padding : 32px 205px;
     border-bottom : 34px;
+    width : 1520px;
     height : 180px;
     display : flex;
     justify-content: space-between;
@@ -15,7 +16,9 @@ footer .company-logo{
     margin-right : 90px;
 }
 
-
+.footer__info{
+    flex-shrink: 0;
+}
 
 
 .footer__info .info__link span:nth-of-type(odd),

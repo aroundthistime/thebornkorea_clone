@@ -25,6 +25,7 @@ header .header__tabs{
     opacity : 0.6;
     font-weight : 500;
     height : 100%;
+    flex-shrink: 0;
 }
 
 .header__tabs .header__tab{

@@ -3,7 +3,7 @@ main{
 }
 
 main .main__content{
-    width : 100%;
+    width : 1520px;
     height : 525px;
     background-image : url("../images/mainbg.jpg");
     background-size : cover;

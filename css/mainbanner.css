@@ -1,5 +1,5 @@
 main .main__banners{
-    width : 100%;
+    width : 1520px;
     height : 143px;
     display : flex;
 
@@ -14,7 +14,8 @@ main .main__banners{
     justify-content: center;
     padding : 41px 0px 37px 40px;
     position: relative;
-    color : white
+    color : white;
+    flex-shrink: 0;
 }
 
 .main__banners .main__banner:nth-of-type(odd){
