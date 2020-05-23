@@ -5,6 +5,7 @@
 @import "mainbanner.css";
 @import "quick.css";
 @import "footer.css";
+@import "notice.css";
 
 *{
     box-sizing : border-box;

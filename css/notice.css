@@ -1,0 +1,37 @@
+.notice{
+    background-color: white;
+    width : 480px;
+    height : 550px;
+    padding : 14px 15px 30px 15px;
+    position : fixed;
+    top : 100px;
+    margin : 0 auto;
+    left : 0;
+    right : 0;
+    border : 4px solid #AFA7A7;
+}
+
+.notice img{
+    width :472px;
+    height : 547px
+}
+
+.notice .close-bar{
+    position : absolute;
+    font-size : 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width : 180px;
+    bottom : 10px;
+    right : 18px;
+}
+
+.close-bar .close-btn{
+    width : 45px;
+    height : 18px;
+    cursor: pointer;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
